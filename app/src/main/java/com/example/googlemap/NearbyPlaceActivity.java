@@ -15,6 +15,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
@@ -79,10 +80,14 @@ public class NearbyPlaceActivity extends AppCompatActivity {
         btnFind.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int i = sprType.getSelectedItemPosition();
+
+               Toast.makeText(getApplicationContext(), "Paid Service", Toast.LENGTH_SHORT).show();
+
+
+              /*  int i = sprType.getSelectedItemPosition();
                 String url =  "https://maps.googleapis.com/maps/api/place/nearbysearch/json" +"?location=" + currentLat + "," + currentLon + "&radius=5000" + "&type=" + placeTypeList[i] + "&sensor=true" + "&key=" + getResources().getString(R.string.map_key);
                 Log.d("CLAPCLAP" , " 11111 " + url);
-                new PaceTask().execute(url);
+                new PaceTask().execute(url);*/
             }
         });
     }
