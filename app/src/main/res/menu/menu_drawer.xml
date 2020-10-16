@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_location"
+            android:title="@string/nav_guhagar" />
+        <item
+            android:id="@+id/nav_current_location"
+            android:title="@string/nav_cur_loc" />
+
+        <item
+            android:id="@+id/nav_search_view"
+            android:title="@string/nav_search_view" />
+
+
+        <item
+            android:id="@+id/nav_marker"
+            android:title="@string/nav_marker" />
+
+
+        <item
+            android:id="@+id/nav_polyline"
+            android:title="@string/nav_poyline" />
+
+        <item
+            android:id="@+id/nav_nearby"
+            android:title="@string/nav_nearby" />
+
+        <item
+            android:visible="false"
+            android:id="@+id/nav_place_picker"
+            android:title="@string/nav_place_picker" />
+
+    </group>
+</menu>

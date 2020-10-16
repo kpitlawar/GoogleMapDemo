@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Map Fusion</string>
+    <string name="nav_guhagar">Guhagar</string>
+    <string name="nav_cur_loc">Current Location</string>
+    <string name="nav_search_view">Search Location</string>
+    <string name="nav_place_picker">Place Picker</string>
+    <string name="nav_marker">Marker</string>
+    <string name="nav_poyline">Drawer Polyline</string>
+    <string name="nav_nearby">Nearby Places</string>
+    <string name="tag_line">Unlike any other</string>
+</resources>
